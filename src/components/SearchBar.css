@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-.search-bar {
+.search-bar>form {
   display: flex;
   background-color: transparent;
   justify-content: center;
@@ -44,6 +44,5 @@
 
   @media (max-width: 768px) {
     width: 50%;
-    margin-left: 30%;
   }
 }
