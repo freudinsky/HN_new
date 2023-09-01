@@ -7,7 +7,7 @@ import SearchBar from "./SearchBar.jsx";
 
 export default function NewsContainer() {
   const [data, setData] = useState([]);
-  const url = "http://hn.algolia.com/api/v1/search?tags=front_page";
+  const url = "https://hn.algolia.com/api/v1/search?tags=front_page";
   const [showArticles, setShowArticles] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
 
