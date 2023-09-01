@@ -25,6 +25,7 @@ const SearchBar = ({ data, setData }) => {
 			<form onSubmit={(e) => {
 				e.preventDefault();
 				handleSearch(searchQuery);
+				setSearchQuery("");
 			}}>
 				<input
 					className="search-input"
